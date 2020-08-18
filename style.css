@@ -1,0 +1,860 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#app {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: lightblue;
+}
+header a {
+    text-decoration: none;
+    color: darkolivegreen;
+    font-size: larger;
+    margin: 1rem 2rem;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.signature {
+    display: flex;
+    width: 30rem;
+    justify-content: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+}
+.signature img {
+    align-content: center;
+    width: 4.5rem;
+    height: 5rem;
+}
+.hamburger {
+    width: 10rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.8rem;
+    color: darkolivegreen;
+    cursor: pointer;
+    display: none;
+}
+.hamburger:focus {
+    outline: none;
+}
+.hamburger:hover {
+    color: white;
+}
+.hamburger:active {
+    color: red;
+}
+.pagesLinks{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.2rem;
+}
+header a:hover {
+    color: white;
+}
+header a:focus {
+    color: red;
+}
+.pages {
+    margin-top: 5rem;
+}
+footer {
+    width: 100%;
+    background-color: lightgreen;
+    color: navy;
+    font-size: 1.2rem;
+}
+footer a {
+    text-decoration: none;
+    font-size: xx-large;
+    margin: 0 2rem;
+    color: navy;
+}
+footer a:hover {
+    color: white;
+}
+footer a:active {
+    color: red;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+}
+.social-titles {
+    display: flex;
+    flex-direction: row;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.contact {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+.contact p {
+    padding: 0.3rem;
+}
+.resume-page {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #ffe6e6; */
+    background-color: darkslategrey;
+    color: white;
+    padding-bottom: 2rem;
+}
+.resume-page h2,h3{
+    color: #00ffbf;
+}
+.resume-link a {
+    text-decoration: none;
+    color: orangered;
+    font-size: larger;
+    float: right;
+    margin-right: 10rem;
+}
+.resume-title {
+    margin: 3rem;
+    text-align: center;
+    color: #00ffbf;
+}
+.resume-text {
+    max-width: 60%;
+    margin-left: 6rem;
+}
+.resume-text li {
+    margin-left: 1rem;
+    padding: 0.1rem;
+}
+.home-page {
+    background-color: darkslategray;
+}
+.home-page p {
+    color: white;
+}
+.home-page h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    font-weight: lighter;
+    padding: 2rem;
+    color: #00ffbf
+}
+.cafeaua-din-nori {
+    width: 80%;
+    margin: 5rem auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cafeaua-din-nori-picture {
+    display: flex;
+    width: 36rem;
+    height: 20rem;
+    background-image: url('./src/Pictures/cafea-in-nori.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.cafeaua-din-nori-text {
+    margin: 1rem;
+    text-align: center;
+    max-width: 70%;
+}
+.alimente-alcaline {
+    width: 80%;
+    margin: 5rem auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.alimente-alcaline-picture {
+    display: flex;
+    width: 36rem;
+    height: 24rem;
+    background-image: url('./src/Pictures/alimente-alcaline.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.alimente-alcaline-text {
+    margin: 1rem;
+    text-align: center;
+    max-width: 70%;
+    padding-bottom: 3rem;
+}
+.dieta-mediteraneana {
+    width: 80%;
+    margin: 5rem auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dieta-mediteraneana-picture {
+    display: flex;
+    width: 36rem;
+    height: 24rem;
+    background-image: url('./src/Pictures/dieta-mediteraneana.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.dieta-mediteraneana-text {
+    margin: 1rem;
+    text-align: center;
+    max-width: 70%;
+    padding-bottom: 2rem;
+}
+.home-page b {
+    margin-left: 2rem;
+}
+.about-page{
+    background-color: darkslategray;
+}
+.about-page p {
+    color: white;
+}
+.about-page h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    font-weight: lighter;
+    padding: 1rem;
+    color: #00ffbf
+}
+.om-tata {
+    width: 80%;
+    margin: 5rem auto 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.om-tata-picture {
+    display: flex;
+    width: 36rem;
+    height: 25rem;
+    background-image: url('./src/Pictures/poza-aniversare.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.om-tata-text {
+    margin: 1rem;
+    text-align: center;
+    max-width: 70%;
+}
+.om-tata-pictures {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.om-tata-pictures .picture1 {
+    margin: 1rem;
+    display: flex;
+    width: 12rem;
+    height: 10rem;
+    background-image: url('./src/Pictures/om-tata-picture1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.om-tata-pictures .picture2 {
+    margin: 1rem;
+    display: flex;
+    width: 12rem;
+    height: 10rem;
+    background-image: url('./src/Pictures/om-tata-picture2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.om-tata-pictures .picture3 {
+    margin: 1rem;
+    display: flex;
+    width: 12rem;
+    height: 10rem;
+    background-image: url('./src/Pictures/om-tata-picture3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.om-tata-pictures .picture4 {
+    margin: 1rem;
+    display: flex;
+    width: 12rem;
+    height: 10rem;
+    background-image: url('./src/Pictures/om-tata-picture4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.om-tata-pictures .picture5 {
+    margin: 1rem;
+    display: flex;
+    width: 12rem;
+    height: 10rem;
+    background-image: url('./src/Pictures/om-tata-picture5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.om-tata-pictures .picture6 {
+    margin: 1rem;
+    display: flex;
+    width: 12rem;
+    height: 10rem;
+    background-image: url('./src/Pictures/om-tata-picture6.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bucatar {
+    width: 80%;
+    margin: 6rem auto 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bucatar-picture {
+    display: flex;
+    width: 36rem;
+    height: 24rem;
+    background-image: url('./src/Pictures/bucatar.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bucatar-text {
+    margin: 1rem;
+    text-align: center;
+    max-width: 70%;
+}
+.bucatar-pictures {
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bucatar-pictures .picture01 {
+    margin: 1rem;
+    display: flex;
+    min-width: 12rem;
+    height: 10rem;
+    background-image: url('./src/Pictures/bucatar-picture01.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bucatar-pictures .picture02 {
+    margin: 1rem;
+    display: flex;
+    min-width: 12rem;
+    height: 10rem;
+    background-image: url('./src/Pictures/bucatar-picture02.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bucatar-pictures .picture03 {
+    margin: 1rem;
+    display: flex;
+    min-width: 12rem;
+    height: 10rem;
+    background-image: url('./src/Pictures/bucatar-picture03.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bucatar-pictures .picture04 {
+    margin: 1rem;
+    display: flex;
+    min-width: 12rem;
+    height: 10rem;
+    background-image: url('./src/Pictures/bucatar-picture04.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bucatar-pictures .picture05 {
+    margin: 1rem;
+    display: flex;
+    min-width: 12rem;
+    height: 10rem;
+    background-image: url('./src/Pictures/bucatar-picture05.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bucatar-pictures .picture06 {
+    margin: 1rem;
+    display: flex;
+    min-width: 12rem;
+    height: 10rem;
+    background-image: url('./src/Pictures/bucatar-picture06.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.student-it {
+    width: 80%;
+    margin: 6rem auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.student-it-picture {
+    display: flex;
+    width: 36rem;
+    height: 24rem;
+    background-image: url('./src/Pictures/poza-mea.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.student-it-text {
+    margin: 1rem;
+    text-align: center;
+    max-width: 70%;
+    padding-bottom: 3rem;
+}
+.appLinks {
+    margin-bottom: 3rem;
+    display: flex;
+}
+.appLinks a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.contactForm {
+    margin: 1rem 1rem 3rem;
+    display: flex;
+    min-width: 18rem;
+    height: 12rem;
+}
+.rock-paper {
+    margin: 1rem 1rem 3rem;
+    display: flex;
+    width: 21rem;
+    height: 14rem;
+}
+.gamesApp {
+    margin: 1rem 1rem 3rem;
+    display: flex;
+    min-width: 18rem;
+    height: 12rem;
+} 
+.appLinks h3 {
+    text-align: center;
+}
+.snakeGame {
+    margin: 1rem 1rem 3rem;
+    display: flex;
+    min-width: 21rem;
+    height: 14rem;
+}
+.batimdb {
+    margin: 1rem 1rem 3rem;
+    display: flex;
+    min-width: 21rem;
+    height: 14rem;
+}
+.travel-page {
+    background-color: darkslategray;
+}
+.travel-page h2 {
+    padding: 0.5rem;
+    color: #00ffbf;
+}
+.travel-page p {
+    color: white;
+}
+.mountains {
+    width: 80%;
+    margin: 5rem auto 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mountains-picture {
+    margin-top: 4rem;
+    display: flex;
+    width: 32rem;
+    height: 20rem;
+    background-image: url('./src/Pictures/mountain-top.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.mountains-text {
+    margin: 1rem ;
+    text-align: center;
+    max-width: 70%;
+}
+.mocanita {
+    width: 80%;
+    margin: 8rem auto 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mocanita-picture {
+    display: flex;
+    width: 32rem;
+    height: 20rem;
+    background-image: url('./src/Pictures/mocanita.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.mocanita-text {
+    margin: 1rem;
+    text-align: center;
+    max-width: 70%;
+}
+.telescaun {
+    width: 80%;
+    margin: 8rem auto 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.telescaun-picture {
+    display: flex;
+    width: 32rem;
+    height: 22rem;
+    background-image: url('./src/Pictures/telescaun-borsa.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.telescaun-text {
+    margin: 1rem;
+    text-align: center;
+    max-width: 70%;
+}
+.cascada {
+    width: 80%;
+    margin: 8rem auto 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cascada-picture {
+    display: flex;
+    width: 32rem;
+    height: 24rem;
+    background-image: url('./src/Pictures/cascada-cailor.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.cascada-text {
+    margin: 1rem;
+    text-align: center;
+    max-width: 70%;
+}
+.alex-mara {
+    width: 80%;
+    margin: 8rem auto 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.alex-mara-picture {
+    display: flex;
+    width: 32rem;
+    height: 24rem;
+    background-image: url('./src/Pictures/alex-mara.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.alex-mara-text {
+    margin: 1rem;
+    text-align: center;
+    max-width: 70%;
+}
+.manastirea-ramet {
+    width: 80%;
+    margin: 8rem auto 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.manastirea-ramet-picture {
+    display: flex;
+    width: 32rem;
+    height: 24rem;
+    background-image: url('./src/Pictures/manastirea-ramet.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.manastirea-ramet-text {
+    margin: 1rem;
+    text-align: center;
+    max-width: 70%;
+}
+.sarmizegetusa {
+    width: 80%;
+    margin: 8rem auto 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sarmizegetusa-picture {
+    display: flex;
+    width: 32rem;
+    height: 20rem;
+    background-image: url('./src/Pictures/sarmizegetusa.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.sarmizegetusa-text {
+    margin: 1rem;
+    text-align: center;
+    max-width: 70%;
+}
+.pensiunea-sarmis {
+    width: 80%;
+    margin: 8rem auto 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pensiunea-sarmis-picture {
+    display: flex;
+    width: 32rem;
+    height: 20rem;
+    background-image: url('./src/Pictures/pensiunea-sarmis.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.pensiunea-sarmis-text {
+    margin: 1rem;
+    text-align: center;
+    max-width: 70%;
+}
+.busteni {
+    width: 80%;
+    margin: 8rem auto 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.busteni-picture {
+    display: flex;
+    width: 32rem;
+    height: 20em;
+    background-image: url('./src/Pictures/poza-mea-busteni.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.busteni-text {
+    margin: 1rem;
+    text-align: center;
+    max-width: 70%;
+    padding-bottom: 3rem;
+}
+
+@media (max-width: 836px) {
+    /* .pagesLinks{
+        display: none;
+    }
+    .pagesLinks.show{
+        display: flex;
+    }
+    .hamburger{
+        display: block;
+    } */
+    header a {
+        margin: 1rem 1rem;
+    }
+    .cafeaua-din-nori h2{
+        margin-top: 3rem;
+    }
+    .om-tata h2 {
+        margin-top: 3rem;
+    }
+    .resume-title {
+        margin-top: 6rem;
+    }
+    .mountains-picture {
+        margin-top: 5rem;
+    }
+    .cafeaua-din-nori-picture{
+        width: 30rem;
+        height: 18rem;
+    }
+    .dieta-mediteraneana-picture{
+        width: 30rem;
+        height: 18rem;
+    }
+    .alimente-alcaline-picture{
+        width: 30rem;
+        height: 18rem;
+    }
+    .om-tata-picture{
+        width: 30rem;
+        height: 21rem;
+    }
+    .bucatar-picture{
+        width: 30rem;
+        height: 20rem;
+    }
+    .student-it-picture{
+        width: 30rem;
+        height: 20rem;
+    }
+    .mountains-picture{
+        width: 30rem;
+        height: 18rem;
+    }
+    .mocanita-picture{
+        width: 30rem;
+        height: 18rem;
+    }
+    .telescaun-picture{
+        width: 30rem;
+        height: 18rem;
+    }
+    .cascada-picture{
+        width: 30rem;
+        height: 18rem;
+    }
+    .alex-mara-picture{
+        width: 30rem;
+        height: 18rem;
+    }
+    .manastirea-ramet-picture{
+        width: 30rem;
+        height: 18rem;
+    }
+    .sarmizegetusa-picture{
+        width: 30rem;
+        height: 18rem;
+    }
+    .pensiunea-sarmis-picture{
+        width: 30rem;
+        height: 18rem;
+    }
+    .busteni-picture{
+        width: 30rem;
+        height: 18rem;
+    }
+}
+
+@media (max-width: 760px) {
+   .signature {
+       width: 15rem;
+   }
+   .signature img {
+       width: 5rem;
+       height: 6rem;
+   }
+    .cafeaua-din-nori h2 {
+        margin-top: 3rem;
+    }
+    .om-tata h2 {
+        margin-top: 4rem;
+    }
+    .mountains-picture {
+        margin-top: 5rem;
+    }
+    .header {
+        justify-content: center;
+    } 
+    .footer {
+        justify-content: center;
+    }
+    .appLinks {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 580px) {
+    header a {
+        margin: 0.3rem 0.3rem;
+    }
+    .pagesLinks {
+        flex-direction: column;
+    }
+    .header {
+        justify-content: center;
+    }
+    .resume-title{
+        text-align: center;
+    }
+    .resume-text{
+         text-align: center;
+         margin: 6rem auto 0rem;
+    }
+    .social-icons {
+        justify-content: center;
+    }
+    .social-titles{
+        display: none;
+    }
+    .cafeaua-din-nori-picture{
+        width: 20rem;
+        height: 12rem;
+    }
+    .dieta-mediteraneana-picture{
+        width: 20rem;
+        height: 12rem;
+    }
+    .alimente-alcaline-picture{
+        width: 20rem;
+        height: 12rem;
+    }
+    .om-tata-picture{
+        width: 20rem;
+        height: 14rem;
+    }
+    .bucatar-picture{
+        width: 20rem;
+        height: 14rem;
+    }
+    .student-it-picture{
+        width: 20rem;
+        height: 14rem;
+    }
+    .mountains-picture{
+        width: 20rem;
+        height: 12rem;
+    }
+    .mocanita-picture{
+        width: 20rem;
+        height: 12rem;
+    }
+    .telescaun-picture{
+        width: 20rem;
+        height: 12rem;
+    }
+    .cascada-picture{
+        width: 20rem;
+        height: 12rem;
+    }
+    .alex-mara-picture{
+        width: 20rem;
+        height: 12rem;
+    }
+    .manastirea-ramet-picture{
+        width: 20rem;
+        height: 12rem;
+    }
+    .sarmizegetusa-picture{
+        width: 20rem;
+        height: 12rem;
+    }
+    .pensiunea-sarmis-picture{
+        width: 20rem;
+        height: 12rem;
+    }
+    .busteni-picture{
+        width: 20rem;
+        height: 12rem;
+    }
+    
+}
