@@ -18,7 +18,7 @@ class Resume {
                                             <p>Email: daniel.selistean@yahoo.com</p>
                                             <p>Mobile: 0756 893 655</p></br>
                                         <h3>Career Profile</h3>
-                                            <p>I'm driven and enthusiastic pursuing a career in IT (Web Development- Frontend Development). Hardworking , motived and organized person, with over 15 years work experience. </p></br>
+                                            <p> Hardworking , motived and organized person, with over 15 years work experience. </p></br>
                                         <h3>Skills and Abilities</h3>
                                             <ul>
                                                 <li>Comunication Skills</li>

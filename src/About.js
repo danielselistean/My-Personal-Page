@@ -55,12 +55,7 @@ class About {
                                 
                                 <h2>Aplicatiile mele</h2>
                                 <div class = 'appLinks'>
-                                    <div>
-                                        <h3>ContactForm</h3>   
-                                            <a href = "https://danielselistean.github.io/contactForm-homework/" >
-                                                <img class = 'contactForm' src='./src/Pictures/contact-form.jpg'>
-                                            </a>
-                                    </div>
+                                
                                     <div>
                                         <h3>GamesApp</h3>
                                         <a href = "https://danielselistean.github.io/GamesAppStructured/" >
