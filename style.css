@@ -228,6 +228,9 @@ footer a:active {
 .home-page b {
     margin-left: 2rem;
 }
+.projects-page {
+    background-color: darkslategray;
+}
 .about-page{
     background-color: darkslategray;
 }
@@ -432,13 +435,22 @@ footer a:active {
     text-decoration: none;
     font-size: 1.5rem;
 }
+.first {
+    margin-top: 5rem;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .rock-paper {
     margin: 1rem 1rem 3rem;
     display: flex;
     width: 21rem;
     height: 14rem;
 }
-.WeatherApp {
+.weatherApp {
     margin: 1rem 1rem 3rem;
     display: flex;
     width: 22rem;

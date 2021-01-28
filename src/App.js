@@ -1,5 +1,6 @@
 import { Header } from './Header.js';
 import { Home } from './Home.js';
+import { Projects } from './Projects.js';
 import { About } from './About.js';
 import { Resume } from './Resume.js';
 import { Travel } from './Travel.js';
@@ -25,6 +26,11 @@ class App {
             case '#home': {
                 const home = new Home(this.pageContent);
                 home.render();
+                break;
+            }
+            case '#projects': {
+                const projects = new Projects(this.pageContent);
+                projects.render();
                 break;
             }
             case '#about': {

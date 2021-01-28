@@ -18,8 +18,9 @@ class Header {
                                 </button>
                                 <div class = 'pagesLinks' id= 'pagesLinks' >
                                     
-                                    <a href="./index.html#about" class="aboutBtn">About</a>
                                     <a href="./index.html#resume" class="resumeBtn">Resume</a>
+                                    <a href="./index.html#projects" class="projectsBtn">Projects</a>
+                                    <a href="./index.html#about" class="aboutBtn">About</a>
                                     <a href="./index.html#travel" class="travelBtn">Travel</a>
                                   
                                 </div>

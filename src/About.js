@@ -53,40 +53,7 @@ class About {
                                     La Școala informală de IT, oamenii au parte de informatii tehnice, dar mai ales de o experiență aparte, prin metodele alternative de predare, într-un mix training – coaching – mentorat, unde se învață și se evaluează pe bune, pentru o carieră în IT, nu pentru diplome de hârtie.</p>
                                 </div>
                                 
-                                <h2>Aplicatiile mele</h2>
-                                
-                                <div class = 'appLinks'>
-                                    <div>
-                                        <h3>Rock-Paper-Scissors Game</h3>   
-                                        <a href = "https://danielselistean.github.io/Rock-Paper-Scissors-Game/" >
-                                            <img class = 'rock-paper' src='./src/Pictures/rock-paper.jpg'>
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <h3>SnakeGame</h3>   
-                                        <a href = "https://danielselistean.github.io/SnakeGame/" >
-                                            <img class = 'snakeGame' src='./src/Pictures/snakegame.jpg'>
-                                        </a>
-                                    </div>
-                                    
-                                </div>
-                                <div class = 'appLinks'>
-                                    <div>
-                                        <h3>WeatherApp</h3>
-                                        <a href = "https://danielselistean.github.io/WheatherApi-Project/" >
-                                            <img class = 'WeatherApp' src='./src/Pictures/WeatherApi.jpg'>
-                                        </a>
-                                    </div>
-                                
-                                    <div>
-                                        <h3>Batman-IMDB</h3>   
-                                        <a href = "https://danielselistean.github.io/BatIMDB/" >
-                                            <img class = 'batimdb' src='./src/Pictures/batman-movies.jpg'>
-                                        </a>
-                                    </div>
-                                </div>
                              </div>`
-
 
         this.appDOM.appendChild(aboutDOM);
     }
