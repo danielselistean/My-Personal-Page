@@ -10,7 +10,7 @@ class Resume {
                                         <h1>Curriculum Vitae</h1>
                                     </div>
                                     <div class = 'resume-link'>
-                                        <a href = "https://resume.io/r/ue2ortOmE">My '.Io' Resume</a>
+                                        <a href = "https://resume.io/r/ue2ortOmE">Resume.io</a>
                                     </div>
                                     <div class = 'resume-text'>
                                         <h2>Vasile-Daniel Selistean</h2>
