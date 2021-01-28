@@ -54,16 +54,7 @@ class About {
                                 </div>
                                 
                                 <h2>Aplicatiile mele</h2>
-                                <div class = 'appLinks'>
                                 
-                                    <div>
-                                        <h3>GamesApp</h3>
-                                        <a href = "https://danielselistean.github.io/GamesAppStructured/" >
-                                            <img class = 'gamesApp' src='./src/Pictures/gamesApp.jpg'>
-                                        </a>
-                                    </div>
-                                    
-                                </div>
                                 <div class = 'appLinks'>
                                     <div>
                                         <h3>Rock-Paper-Scissors Game</h3>   
@@ -80,6 +71,13 @@ class About {
                                     
                                 </div>
                                 <div class = 'appLinks'>
+                                    <div>
+                                        <h3>WeatherApp</h3>
+                                        <a href = "https://danielselistean.github.io/WheatherApi-Project/" >
+                                            <img class = 'WeatherApp' src='./src/Pictures/WeatherApi.jpg'>
+                                        </a>
+                                    </div>
+                                
                                     <div>
                                         <h3>Batman-IMDB</h3>   
                                         <a href = "https://danielselistean.github.io/BatIMDB/" >

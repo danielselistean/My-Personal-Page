@@ -432,23 +432,17 @@ footer a:active {
     text-decoration: none;
     font-size: 1.5rem;
 }
-.contactForm {
-    margin: 1rem 1rem 3rem;
-    display: flex;
-    min-width: 18rem;
-    height: 12rem;
-}
 .rock-paper {
     margin: 1rem 1rem 3rem;
     display: flex;
     width: 21rem;
     height: 14rem;
 }
-.gamesApp {
+.WeatherApp {
     margin: 1rem 1rem 3rem;
     display: flex;
-    min-width: 18rem;
-    height: 12rem;
+    width: 22rem;
+    height: 14rem;
 } 
 .appLinks h3 {
     text-align: center;
