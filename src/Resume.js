@@ -59,7 +59,7 @@ class Resume {
                                         <h3>Languages</h3> 
                                             <ul>
                                                 <li>Romanian - native</li>
-                                                <li>English - advance</li>
+                                                <li>English - medium</li>
                                                 <li>Portuguese - medium</li>
                                             </ul> <br/>
                                         <h3>Hobby</h3> 
