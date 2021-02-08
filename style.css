@@ -663,6 +663,10 @@ footer a:active {
     max-width: 70%;
     padding-bottom: 3rem;
 }
+b {
+    color: salmon;
+    
+}
 
 @media (max-width: 836px) {
     /* .pagesLinks{
