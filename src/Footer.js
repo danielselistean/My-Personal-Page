@@ -16,18 +16,18 @@ class Footer {
                                 <div class = 'social'>
                                         
                                     <div class = 'social-titles'>
-                                        <a href="https://www.facebook.com/daniel.selistean.7">Facebook</a>
-                                        <a href="https://linkedin.com/in/daniel-selistean-576650199">LinkedIn</a>
-                                        <a href="https://github.com/danielselistean">GitHub</a>
+                                        <a href="https://www.facebook.com/daniel.selistean.7" target="_blank">Facebook</a>
+                                        <a href="https://linkedin.com/in/daniel-selistean-576650199" target="_blank">LinkedIn</a>
+                                        <a href="https://github.com/danielselistean" target="_blank">GitHub</a>
                                     </div>
 
                                     <div class = 'social-icons'>
                                 
-                                        <div><a href="https://www.facebook.com/daniel.selistean.7"><i class="fab fa-facebook"></i></a></div>
+                                        <div><a href="https://www.facebook.com/daniel.selistean.7" target="_blank"><i class="fab fa-facebook"></i></a></div>
 
-                                        <div><a href="https://linkedin.com/in/daniel-selistean-576650199"><i class="fab fa-linkedin"></i></a></div>
+                                        <div><a href="https://linkedin.com/in/daniel-selistean-576650199" target="_blank"><i class="fab fa-linkedin"></i></a></div>
                                     
-                                        <div><a href="https://github.com/danielselistean"><i class="fab fa-github"></i></a></div>
+                                        <div><a href="https://github.com/danielselistean" target="_blank"><i class="fab fa-github"></i></a></div>
 
                                     </div>
                                 </div>
