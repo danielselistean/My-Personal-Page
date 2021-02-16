@@ -38,6 +38,7 @@ class Resume {
                                                 <li><b>OOP</b> in JavaScript: prototypes, classes and inheritance ;</li>
                                                 <li><b>GIT</b>: principles and basic commands;</li>
                                                 <li><b>REACT JS</b>: how modern application JS work, React components, props, state, JSX ;</li>
+                                                <li><b>Familiarity with</b>: NodeJs, ExpressJs, MongoDB, Mocha;</li>
                                             </ul></br>
                                         <h3>Professional Experience</h3>
                                             <h4>Lead Cook, Golden Tulip Ana Dome, Cluj-Napoca</h4>
@@ -53,7 +54,7 @@ class Resume {
                                             </ul></br>
                                         <h3>Education</h3> 
                                             <h4>USAMV - Economic Engineer, Cluj-Napoca</h4>
-                                            <h6>October 2001 - June 2004</h6>
+                                            <h6>October 2001 - June 2004</h6><br>
                                             <h4>Colegiul Tehnic de Comunicatii "Augustin Maior" - Industrial Electronics and Communication Technology, Cluj-Napoca</h4>
                                             <h6>September 1997 - June 2001</h6></br>
                                         <h3>Languages</h3> 
